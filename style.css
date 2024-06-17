@@ -1,0 +1,239 @@
+/*=====website=====*/
+/*html*/
+html{
+    height: 100%;
+    background-image: url(image/wallpaper.jpg);
+}
+
+/*body*/
+body {
+    background-color: white;
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    margin: 0 100;
+    padding: 0;
+    line-height: 45px;
+}
+
+/*header*/
+header{
+    font-size:90px;
+    padding-top :25px;
+    padding-bottom :25px;
+    width:100%;
+    margin:0px;
+}
+
+/*h1見出し*/
+h1 {
+    text-align: center;
+    color: #DDDDDD;
+    font-size: 75px;
+    text-shadow:black 2px 2px,  black -2px 0px,
+    black 0px -2px, black 0px 2px,
+    black 2px 2px , black -2px 2px,
+    black 2px -2px, black -2px -2px,
+    black 1px 2px,  black -1px 2px,
+    black 1px -2px, black -1px -2px,
+    black 2px 1px,  black -2px 1px,
+    black 2px -1px, black -2px -1px;
+    margin: 10%;
+}
+
+/*アクセント*/
+.accent{
+    display:inline-block;
+    font-size:4cm;
+    color: #9Acd32;
+    transform: rotate(5deg);
+}
+
+/*サブタイトル*/
+.subtitle{
+    font-size: 30px;
+    text-align: center;
+}
+/*最終更新日*/
+.lastupdated{
+    font-size:15px;
+    text-align: center;
+    color: rgb(0 0 0 / 0.6);
+    margin-top: 10px;
+}
+
+/*ナビゲーション*/
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*リスト全体*/
+nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/*１つ１つのリスト*/
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+/*リンク*/
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/*リンクにふれた時*/
+nav a:hover {
+    color: #ffcc11;
+}
+
+/*sectionタグ*/
+section{
+    margin: 50px
+}
+
+/*段落*/
+p{
+    margin-left: 10px;
+}
+
+/*目的*/
+.purpose{
+    
+}
+
+/*太字強調*/
+.fat{
+    font-weight: 900;
+    border-bottom: 5px solid yellow;
+}
+
+/*h2見出し*/
+h2 {
+    font-size: 30px;
+    height: 30px;
+    width: 80%;
+    padding: 15px;
+    border-bottom: solid 10px #FFD700;
+    display: inline-block;
+    width: 300px;
+}
+
+/*写真位置*/
+.position{
+    text-align: center;
+    margin: 5%;
+}
+
+/*詳細*/
+.details{
+    
+}
+/*table*/
+.details table{
+    border-collapse: collapse;
+    border:solid 3px #000000;
+    height: auto;
+    width: auto;
+    font-weight:600;
+}
+
+.details td{
+    border:solid 2px #000000;
+    background-color:#FFFFDD;
+    padding-left: 20px;
+}
+
+.left{
+    background-color:#FFD700 !important;
+    padding-left: 0 !important;
+    text-align: left;
+}
+
+/*what*/
+.what{
+    margin:25px;
+    background-color: #EEEEEE;
+    font-family: sans-serif !important;
+}
+
+/*出典*/
+.from{
+    text-align: right;
+}
+
+/*通常リンク*/
+a{
+    text-decoration: none;
+}
+
+/*踏んだ外部リンク*/
+.link_out{
+    color:#0071D1;
+}
+
+/*リンクに触れた*/
+a:hover{
+    text-decoration: underline;
+}
+
+/*注意書き*/
+.warn{
+    font-size: 15px;
+    line-height: 40px;
+}
+
+/*h3見出し*/
+h3{
+    font-size:24px;
+    clear: both;
+}
+
+/*メリット本文*/
+.fir{
+    
+}
+
+/*ツイート、写真２枚位置１*/
+.position-sec{
+    height: 580px;
+    width: 40%;
+    float: left;
+    margin:7.5% 2.5%;
+    display: inline-block;
+    text-align: center;
+}
+
+/*ツイート、写真２枚位置２*/
+.position-thi{
+    height: 580px;
+    width: 40%;
+    float: right;
+    margin:7.5% 2.5%;
+    display: inline-block;
+    text-align: center;
+}
+
+/*ツイート*/
+.twitter-tweet{
+    height: 600px;
+    width: 500px;
+}
+
+/*画像*/
+.merit img{
+    height:250px;
+    width: 405px;
+}
+
+/*footer*/
+footer{
+    color: silver;
+    text-align: center;
+    font-size:15px;
+}
